@@ -1,0 +1,105 @@
+html, body {
+    margin:0;
+    height: 100%;
+    font-family: 'Nanum Gothic', sans-serif;
+    
+}
+
+.container {
+    background-image:linear-gradient(to bottom left,#D327FF,#27E7FF );
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+
+::placeholder {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 1em;
+    padding: 5px;
+    
+
+}
+
+.form-title{
+    font-size: 40px;
+    
+    letter-spacing: .5rem;
+}
+
+.login-box {
+    background-color: #FFFFFF;
+    width:500px;
+    height:500px;
+    text-align:center;
+    margin-bottom:100%;
+    box-shadow:10px 10px 20px;
+    background: rgba(10, 220, 120, 0.2);
+    border-radius: 20px;
+    
+
+    
+   
+}
+
+label {
+    display:block;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-size: 30px;
+    
+}
+
+input {
+    height: 50px;
+    width:300px;
+    border-radius: 50px;
+    outline-width: 0;
+    border:none;
+    padding-left: 15px;
+
+}
+
+input[type="text"] {
+    font-size:14px;
+}
+
+.input-fields.username-field {
+    margin-top:40px
+}
+
+.input-fields.password-field {
+    margin-top: 40px;
+}
+
+button {
+    display:block;
+    margin-top:40px;
+    margin-right:auto;
+    margin-left: auto;
+    height: 50px;
+    width: 200px;
+    transition-duration: 0.4s;
+    font-size: 20px;
+
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #78e4ff, #ff48fa);
+    background-origin: border-box;
+   
+    
+}
+
+
+
+button:hover {
+    background-image:linear-gradient(to right,#D327FF,#27E7FF );  /* Green */
+    color:white;
+}
+.login {
+    color:black;
+    border-radius: 8px;
+    margin-top:60px;
+    
+}
